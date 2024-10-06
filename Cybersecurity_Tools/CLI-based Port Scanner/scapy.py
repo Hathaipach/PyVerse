@@ -15,5 +15,5 @@ def scan_network(ip_range):
     for client in clients:
         print(f"IP: {client['ip']} MAC: {client['mac']}")
 
-# Example usage
+# Example usage 
 scan_network("192.168.1.0/24")
